@@ -1,0 +1,352 @@
+% references.bib for "Longer, Not Better" (AAAI workshop). Checked on 2026-10-15.
+% The comment above each entry gives the pages used to check it.
+% Keys follow the draft. Where the published version differs from the arXiv version, the comment says so.
+% Where the venue year differs from the year in the key, the key is kept as requested; the in-text year follows the venue.
+
+% ---------------------------------------------------------------- judge biases
+
+% Checked: https://arxiv.org/abs/2306.05685 ; https://openreview.net/forum?id=uccHPGDlao (NeurIPS 2023 Datasets and Benchmarks Track)
+@inproceedings{zheng2023judging,
+  title         = {Judging {LLM}-as-a-Judge with {MT-Bench} and {Chatbot Arena}},
+  author        = {Zheng, Lianmin and Chiang, Wei-Lin and Sheng, Ying and Zhuang, Siyuan and Wu, Zhanghao and Zhuang, Yonghao and Lin, Zi and Li, Zhuohan and Li, Dacheng and Xing, Eric P. and Zhang, Hao and Gonzalez, Joseph E. and Stoica, Ion},
+  booktitle     = {Advances in Neural Information Processing Systems 36 (NeurIPS 2023), Datasets and Benchmarks Track},
+  year          = {2023},
+  eprint        = {2306.05685},
+  archiveprefix = {arXiv}
+}
+
+% Checked: https://arxiv.org/abs/2310.10076 ; https://openreview.net/forum?id=magEgFpK1y
+% Also a paper at the Instruction Workshop at NeurIPS 2023. Cited here as the arXiv preprint.
+@article{saito2023verbosity,
+  title   = {Verbosity Bias in Preference Labeling by Large Language Models},
+  author  = {Saito, Keita and Wachi, Akifumi and Wataoka, Koki and Akimoto, Youhei},
+  journal = {arXiv preprint arXiv:2310.10076},
+  year    = {2023}
+}
+
+% Checked: https://openreview.net/forum?id=CybBmzWBX0 (COLM 2024 record: this title, three authors) ; https://arxiv.org/abs/2404.04475
+% The arXiv version (v2, 2025-03-10) has a different subtitle, "A Simple Way to Debias Automatic Evaluators",
+% and a fourth author, Balazs Galambosi (second position). Use that form if you cite the preprint instead.
+@inproceedings{dubois2024length,
+  title         = {Length-Controlled {AlpacaEval}: A Simple Debiasing of Automatic Evaluators},
+  author        = {Dubois, Yann and Liang, Percy and Hashimoto, Tatsunori},
+  booktitle     = {Conference on Language Modeling (COLM 2024)},
+  year          = {2024},
+  eprint        = {2404.04475},
+  archiveprefix = {arXiv}
+}
+
+% Checked: https://arxiv.org/abs/2404.13076 ; https://openreview.net/forum?id=4NJBV6Wp0h (NeurIPS 2024, oral)
+@inproceedings{panickssery2024llm,
+  title         = {{LLM} Evaluators Recognize and Favor Their Own Generations},
+  author        = {Panickssery, Arjun and Bowman, Samuel R. and Feng, Shi},
+  booktitle     = {Advances in Neural Information Processing Systems 37 (NeurIPS 2024)},
+  year          = {2024},
+  eprint        = {2404.13076},
+  archiveprefix = {arXiv}
+}
+
+% Checked: https://arxiv.org/abs/2410.09724 ; https://openreview.net/forum?id=l0tg0jzsdL (ICLR 2025 poster)
+@inproceedings{leng2025taming,
+  title         = {Taming Overconfidence in {LLMs}: Reward Calibration in {RLHF}},
+  author        = {Leng, Jixuan and Huang, Chengsong and Zhu, Banghua and Huang, Jiaxin},
+  booktitle     = {The Thirteenth International Conference on Learning Representations (ICLR 2025)},
+  year          = {2025},
+  eprint        = {2410.09724},
+  archiveprefix = {arXiv}
+}
+
+% Checked: https://arxiv.org/abs/2310.03716 ; https://openreview.net/forum?id=G8LaO1P0xv (COLM 2024)
+% In-text year: 2024.
+@inproceedings{singhal2023long,
+  title         = {A Long Way to Go: Investigating Length Correlations in {RLHF}},
+  author        = {Singhal, Prasann and Goyal, Tanya and Xu, Jiacheng and Durrett, Greg},
+  booktitle     = {Conference on Language Modeling (COLM 2024)},
+  year          = {2024},
+  eprint        = {2310.03716},
+  archiveprefix = {arXiv}
+}
+
+% Checked: https://arxiv.org/abs/2503.05061 (v4, 2026-09-28) ; https://openreview.net/forum?id=jHjPCNaI4N (COLM 2026)
+% In-text year: 2026.
+@inproceedings{krumdick2025nofree,
+  title         = {No Free Labels: Limitations of {LLM}-as-a-Judge Without Human Grounding},
+  author        = {Krumdick, Michael and Lovering, Charles and Reddy, Varshini and Ebner, Seth and Tanner, Chris},
+  booktitle     = {Conference on Language Modeling (COLM 2026)},
+  year          = {2026},
+  eprint        = {2503.05061},
+  archiveprefix = {arXiv}
+}
+
+% Checked: https://arxiv.org/abs/2607.05904 ; https://openreview.net/forum?id=Lpxn7lc6Dz (same title; anonymous ICLR 2027 submission, under review)
+% Key requested as "convincing2026"; renamed to zhou2026more after the first author, as instructed.
+@article{zhou2026more,
+  title   = {More Convincing, Not More Correct: Self-Play Reward Hacking of Reference-Free {LLM} Judges},
+  author  = {Zhou, Chenyu},
+  journal = {arXiv preprint arXiv:2607.05904},
+  year    = {2026}
+}
+
+% Checked: https://openreview.net/forum?id=ciWblnAKGL (full record via the OpenReview search API: venue "NeurIPS 2026 TAE Poster", released 2026-09-28) ;
+% https://tai-eval.github.io/ (workshop title from its camera-ready instructions). Authors are public (Amazon). Exact title kept as on OpenReview.
+@inproceedings{labelfree2026,
+  title     = {Label-free detection and mitigation of judge bias},
+  author    = {Albert, Paul and Nguyen, Quoc Phong and Monteil, Julien},
+  booktitle = {{TAE} ({Trust-AI-Eval}): Can We Trust {AI} Evaluation? Workshop at {NeurIPS} 2026},
+  year      = {2026}
+}
+
+% ---------------------------------------------------------------- verifiers, best-of-N, rubric rewards
+
+% Checked: https://arxiv.org/abs/2110.14168 (no peer-reviewed venue found)
+@article{cobbe2021training,
+  title   = {Training Verifiers to Solve Math Word Problems},
+  author  = {Cobbe, Karl and Kosaraju, Vineet and Bavarian, Mohammad and Chen, Mark and Jun, Heewoo and Kaiser, Lukasz and Plappert, Matthias and Tworek, Jerry and Hilton, Jacob and Nakano, Reiichiro and Hesse, Christopher and Schulman, John},
+  journal = {arXiv preprint arXiv:2110.14168},
+  year    = {2021}
+}
+
+% Checked: https://arxiv.org/abs/2305.20050 ; https://openreview.net/forum?id=v8L0pN6EOi (ICLR 2024 poster)
+% The ICLR record writes "Yuri Burda" and "Harrison Edwards"; arXiv writes "Yura Burda" and "Harri Edwards".
+% In-text year: 2024 (the draft says 2023).
+@inproceedings{lightman2024lets,
+  title         = {Let's Verify Step by Step},
+  author        = {Lightman, Hunter and Kosaraju, Vineet and Burda, Yuri and Edwards, Harrison and Baker, Bowen and Lee, Teddy and Leike, Jan and Schulman, John and Sutskever, Ilya and Cobbe, Karl},
+  booktitle     = {The Twelfth International Conference on Learning Representations (ICLR 2024)},
+  year          = {2024},
+  eprint        = {2305.20050},
+  archiveprefix = {arXiv}
+}
+
+% Checked: https://proceedings.mlr.press/v202/gao23h.html ; https://arxiv.org/abs/2210.10760
+@inproceedings{gao2023scaling,
+  title         = {Scaling Laws for Reward Model Overoptimization},
+  author        = {Gao, Leo and Schulman, John and Hilton, Jacob},
+  booktitle     = {Proceedings of the 40th International Conference on Machine Learning (ICML 2023)},
+  series        = {Proceedings of Machine Learning Research},
+  volume        = {202},
+  pages         = {10835--10866},
+  publisher     = {PMLR},
+  year          = {2023},
+  eprint        = {2210.10760},
+  archiveprefix = {arXiv}
+}
+
+% Checked: https://arxiv.org/abs/2411.17501 (v3, 2026-03-26) ; https://openreview.net/forum?id=j8H84v6AZ1 (ICLR 2026 poster)
+% Title changed. arXiv v1 (2024) was "Inference Scaling fLaws: The Limits of LLM Resampling with Imperfect Verifiers".
+% The published ICLR 2026 title is used. In-text: Stroebl, Kapoor, and Narayanan (2026).
+@inproceedings{stroebl2024inference,
+  title         = {The Limits of Inference Scaling Through Resampling},
+  author        = {Stroebl, Benedikt and Kapoor, Sayash and Narayanan, Arvind},
+  booktitle     = {The Fourteenth International Conference on Learning Representations (ICLR 2026)},
+  year          = {2026},
+  eprint        = {2411.17501},
+  archiveprefix = {arXiv}
+}
+
+% Checked: https://arxiv.org/abs/2603.12520 ; https://arxiv.org/html/2603.12520 (abstract, Sections 4-5). No venue found.
+@article{landesberg2026,
+  title   = {When {LLM} Judge Scores Look Good but Best-of-{N} Decisions Fail},
+  author  = {Landesberg, Eddie},
+  journal = {arXiv preprint arXiv:2603.12520},
+  year    = {2026}
+}
+
+% Checked: https://arxiv.org/abs/2507.17746 (v2, 2025-10-03) ; https://openreview.net/forum?id=c1bTcrDmt4 (ICLR 2026 poster)
+% The DBLP record of the first arXiv version lists six authors (no Yunzhong He); v2 and the ICLR record list seven.
+% In-text year: 2026.
+@inproceedings{gunjal2025rubrics,
+  title         = {Rubrics as Rewards: Reinforcement Learning Beyond Verifiable Domains},
+  author        = {Gunjal, Anisha and Wang, Anthony and Lau, Elaine and Nath, Vaskar and He, Yunzhong and Liu, Bing and Hendryx, Sean M.},
+  booktitle     = {The Fourteenth International Conference on Learning Representations (ICLR 2026)},
+  year          = {2026},
+  eprint        = {2507.17746},
+  archiveprefix = {arXiv}
+}
+
+% Checked: https://arxiv.org/abs/2507.18624 (v2 comment: "Presented at NeurIPS 2025") ; https://neurips.cc/virtual/2025/poster/118029 (spotlight)
+% The NeurIPS page lists six authors ("Sherry Wu" = Tongshuang Wu). arXiv v2 lists a seventh, Shuang Ma, after Yanchao Sun.
+% The NeurIPS list is used here. Check the camera-ready PDF if exact authorship matters.
+@inproceedings{viswanathan2025checklists,
+  title         = {Checklists Are Better Than Reward Models For Aligning Language Models},
+  author        = {Viswanathan, Vijay and Sun, Yanchao and Kong, Xiang and Cao, Meng and Neubig, Graham and Wu, Tongshuang},
+  booktitle     = {Advances in Neural Information Processing Systems 38 (NeurIPS 2025)},
+  year          = {2025},
+  eprint        = {2507.18624},
+  archiveprefix = {arXiv}
+}
+
+% Checked: https://arxiv.org/abs/2203.11171 ; https://openreview.net/forum?id=1PL1NIMMrw (ICLR 2023 poster)
+@inproceedings{wang2023selfconsistency,
+  title         = {Self-Consistency Improves Chain of Thought Reasoning in Language Models},
+  author        = {Wang, Xuezhi and Wei, Jason and Schuurmans, Dale and Le, Quoc V. and Chi, Ed H. and Narang, Sharan and Chowdhery, Aakanksha and Zhou, Denny},
+  booktitle     = {The Eleventh International Conference on Learning Representations (ICLR 2023)},
+  year          = {2023},
+  eprint        = {2203.11171},
+  archiveprefix = {arXiv}
+}
+
+% ---------------------------------------------------------------- forecasting with LLMs; judging rationales
+
+% Checked: https://arxiv.org/abs/2511.07678 ; https://arxiv.org/html/2511.07678 (Section 7, Tables 9-10). Technical report; no venue found.
+% Bridgewater AIA Labs. In-text: Alur et al. (2025).
+@article{aia2025forecaster,
+  title   = {{AIA} Forecaster: Technical Report},
+  author  = {Alur, Rohan and Stadie, Bradly C. and Kang, Daniel and Chen, Ryan and McManus, Matt and Rickert, Michael and Lee, Tyler and Federici, Michael and Zhu, Richard and Fogerty, Dennis and Williamson, Hayley and Lozinski, Nina and Linsky, Aaron and Sekhon, Jasjeet S.},
+  journal = {arXiv preprint arXiv:2511.07678},
+  year    = {2025}
+}
+
+% Checked: https://arxiv.org/abs/2606.30987 ; https://arxiv.org/html/2606.30987 (abstract, Table 2)
+% FRI summary post: https://forecastingresearch.substack.com/p/can-you-judge-a-forecast-by-its-rationale
+% No venue found. In-text: Karvetski et al. (2026), not "FRI (2026)".
+@article{fri2026,
+  title   = {Measuring Judgment Quality in Natural-Language Explanations: Evidence from Forecasting Tournaments},
+  author  = {Karvetski, Christopher W. and Huang, Sheldon S. and Ku{\v{c}}inskas, Simas and Flechner, Nadja and Hu, Jingyu and Tetlock, Philip and Karger, Ezra},
+  journal = {arXiv preprint arXiv:2606.30987},
+  year    = {2026}
+}
+
+% Checked: https://doi.org/10.1016/j.ijforecast.2021.09.003 (Crossref metadata) ;
+% https://econpapers.repec.org/article/eeeintfor/v_3a38_3ay_3a2022_3ai_3a2_3ap_3a688-704.htm (abstract) ; open accepted-version PDF (Table 3, Study 2)
+@article{karvetski2022forecasting,
+  title   = {What Do Forecasting Rationales Reveal about Thinking Patterns of Top Geopolitical Forecasters?},
+  author  = {Karvetski, Christopher W. and Meinel, Carolyn and Maxwell, Daniel T. and Lu, Yunzi and Mellers, Barbara A. and Tetlock, Philip E.},
+  journal = {International Journal of Forecasting},
+  volume  = {38},
+  number  = {2},
+  pages   = {688--704},
+  year    = {2022},
+  doi     = {10.1016/j.ijforecast.2021.09.003}
+}
+
+% Checked: https://arxiv.org/abs/2510.17638 (v2, 2025-12-21) ; https://openreview.net/forum?id=VpiHkMSPqI (ICLR 2026 poster)
+% In-text: Yang et al. (2026).
+@inproceedings{prophetarena2025,
+  title         = {{LLM}-as-a-Prophet: Understanding Predictive Intelligence with {Prophet Arena}},
+  author        = {Yang, Qingchuan and Mahns, Simon and Li, Sida and Gu, Anri and Wu, Jibang and Xu, Haifeng},
+  booktitle     = {The Fourteenth International Conference on Learning Representations (ICLR 2026)},
+  year          = {2026},
+  eprint        = {2510.17638},
+  archiveprefix = {arXiv}
+}
+
+% Checked: https://openreview.net/forum?id=9YorHvP4ZD (abstract via the OpenReview search API; record created 2026-09-17)
+% This is "the SEIPH submission": SEIPH is the paper's five-dimensional, outcome-blind rubric reward.
+% Anonymous ICLR 2027 submission, under review. No arXiv version found on 2026-10-15. PDF not read (OpenReview browser check).
+% Key chosen to match OpenReview's own BibTeX key. Prints as "Anonymous 2026a" (sorted before echo2026 by title).
+@misc{anonymous2026beliefstate,
+  title        = {Belief-State Management Meets Rubric Rewards for Agentic Forecasting},
+  author       = {Anonymous},
+  howpublished = {Submitted to ICLR 2027. \url{https://openreview.net/forum?id=9YorHvP4ZD}},
+  year         = {2026}
+}
+
+% Checked: https://openreview.net/forum?id=7WdvJ0qHXo (full record via the OpenReview search API; Submission60733; created 2026-09-19, last modified 2026-10-05)
+% Exact title confirmed. Abstract: "In a revised seven-model rubric evaluation, scores computed without the recorded
+% outcomes correlate with Elo rankings at rho = 0.857." The arena is called Echo. Anonymous ICLR 2027 submission, under review.
+% PDF not read (OpenReview browser check). Prints as "Anonymous 2026b".
+@misc{echo2026,
+  title        = {Towards a General {AI} Prediction Arena},
+  author       = {Anonymous},
+  howpublished = {Submitted to ICLR 2027. \url{https://openreview.net/forum?id=7WdvJ0qHXo}},
+  year         = {2026}
+}
+
+% Checked: https://ebooks.iospress.nl/doi/10.3233/FAIA250997 (pages 1695-1702, FAIA volume 413) ; Crossref record for the DOI ; https://arxiv.org/abs/2507.23163
+% Volume: ECAI 2025, 28th European Conference on Artificial Intelligence, 25-30 October 2025, Bologna, Italy (including PAIS 2025).
+% Editors (omitted below for length): Ines Lynce, Nello Murano, Mauro Vallati, Serena Villata, Federico Chesani, Michela Milano, Andrea Omicini, Mehdi Dastani.
+@inproceedings{gorur2025argumentatively,
+  title     = {Argumentatively Coherent Judgmental Forecasting},
+  author    = {Gorur, Deniz and Rago, Antonio and Toni, Francesca},
+  booktitle = {{ECAI} 2025: 28th European Conference on Artificial Intelligence},
+  series    = {Frontiers in Artificial Intelligence and Applications},
+  volume    = {413},
+  pages     = {1695--1702},
+  publisher = {IOS Press},
+  year      = {2025},
+  doi       = {10.3233/FAIA250997}
+}
+
+% Checked: https://arxiv.org/abs/2402.18563 ; https://openreview.net/forum?id=FlcdW7NPRY (NeurIPS 2024 poster)
+% The paper writes the third author family name first, as "Chen Yueh-Han".
+@inproceedings{halawi2024approaching,
+  title         = {Approaching Human-Level Forecasting with Language Models},
+  author        = {Halawi, Danny and Zhang, Fred and Chen, Yueh-Han and Steinhardt, Jacob},
+  booktitle     = {Advances in Neural Information Processing Systems 37 (NeurIPS 2024)},
+  year          = {2024},
+  eprint        = {2402.18563},
+  archiveprefix = {arXiv}
+}
+
+% Checked: https://arxiv.org/abs/2409.19839 ; https://openreview.net/forum?id=lfPkGWXLLf (ICLR 2025 poster)
+@inproceedings{karger2025forecastbench,
+  title         = {{ForecastBench}: A Dynamic Benchmark of {AI} Forecasting Capabilities},
+  author        = {Karger, Ezra and Bastani, Houtan and Chen, Yueh-Han and Jacobs, Zachary and Halawi, Danny and Zhang, Fred and Tetlock, Philip E.},
+  booktitle     = {The Thirteenth International Conference on Learning Representations (ICLR 2025)},
+  year          = {2025},
+  eprint        = {2409.19839},
+  archiveprefix = {arXiv}
+}
+
+% Checked: https://doi.org/10.1126/sciadv.adp1528 (Crossref metadata) ; https://arxiv.org/abs/2402.19379
+% The Science Advances version has five authors; the arXiv version lists four (no R. V. S. Bastos).
+@article{schoenegger2024wisdom,
+  title   = {Wisdom of the Silicon Crowd: {LLM} Ensemble Prediction Capabilities Rival Human Crowd Accuracy},
+  author  = {Schoenegger, Philipp and Tuminauskaite, Indre and Park, Peter S. and Bastos, Rafael Valdece Sousa and Tetlock, Philip E.},
+  journal = {Science Advances},
+  volume  = {10},
+  number  = {45},
+  year    = {2024},
+  doi     = {10.1126/sciadv.adp1528}
+}
+
+% ---------------------------------------------------------------- aggregation, scoring, statistics
+
+% Checked: https://doi.org/10.1016/j.ijforecast.2013.09.009 (Crossref metadata) ; https://ideas.repec.org/a/eee/intfor/v30y2014i2p344-356.html (abstract)
+@article{satopaa2014combining,
+  title   = {Combining Multiple Probability Predictions Using a Simple Logit Model},
+  author  = {Satop{\"a}{\"a}, Ville A. and Baron, Jonathan and Foster, Dean P. and Mellers, Barbara A. and Tetlock, Philip E. and Ungar, Lyle H.},
+  journal = {International Journal of Forecasting},
+  volume  = {30},
+  number  = {2},
+  pages   = {344--356},
+  year    = {2014},
+  doi     = {10.1016/j.ijforecast.2013.09.009}
+}
+
+% Checked: https://doi.org/10.1287/deca.2014.0293 (Crossref metadata; abstract via OpenAlex)
+@article{baron2014two,
+  title   = {Two Reasons to Make Aggregated Probability Forecasts More Extreme},
+  author  = {Baron, Jonathan and Mellers, Barbara A. and Tetlock, Philip E. and Stone, Eric and Ungar, Lyle H.},
+  journal = {Decision Analysis},
+  volume  = {11},
+  number  = {2},
+  pages   = {133--145},
+  year    = {2014},
+  doi     = {10.1287/deca.2014.0293}
+}
+
+% Checked: https://doi.org/10.1175/1520-0493(1950)078<0001:VOFEIT>2.0.CO;2 (Crossref metadata)
+@article{brier1950verification,
+  title   = {Verification of Forecasts Expressed in Terms of Probability},
+  author  = {Brier, Glenn W.},
+  journal = {Monthly Weather Review},
+  volume  = {78},
+  number  = {1},
+  pages   = {1--3},
+  year    = {1950},
+  doi     = {10.1175/1520-0493(1950)078<0001:VOFEIT>2.0.CO;2}
+}
+
+% Checked: https://doi.org/10.1007/BF01068419 (Crossref metadata)
+@article{schuirmann1987comparison,
+  title   = {A Comparison of the Two One-Sided Tests Procedure and the Power Approach for Assessing the Equivalence of Average Bioavailability},
+  author  = {Schuirmann, Donald J.},
+  journal = {Journal of Pharmacokinetics and Biopharmaceutics},
+  volume  = {15},
+  number  = {6},
+  pages   = {657--680},
+  year    = {1987},
+  doi     = {10.1007/BF01068419}
+}
